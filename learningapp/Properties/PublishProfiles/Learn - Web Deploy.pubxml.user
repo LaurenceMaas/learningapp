@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAVIld8C278E6UvfgaoGluhwAAAAACAAAAAAADZgAAwAAAABAAAAAEoe2qdcuFRdRIB6bFtqh6AAAAAASAAACgAAAAEAAAAPEkc0o82NLBN7yEr7BgMhOAAAAAV96ClbNvl7vmTnzFI9oJ78f2/7jvNBqHR5asKT/9VfRkyBArxBtYJjP5LO5Zyh1XMXWcJHTVzgcrZCJW4PucOYGQdZ9oDA7H7aAlb/P8FKwceegxs/hMuvzUiOQqpkzXnojXgiDHyzhMvKemUs3GxrRFvEQyzl0tpuwppR023rAUAAAAckf76ebImEiAQMJzumJrTk2NoCc=</EncryptedPassword>
+    <History>True|2024-10-14T10:22:12.8308045Z;True|2024-10-14T12:19:22.6751465+02:00;True|2024-10-14T12:18:26.5412455+02:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="AZURE_SQL_CONNECTIONSTRING">
+      <Value>Server=tcp:testserver20241011.database.windows.net,1433%3bInitial Catalog=TestDb%3bPersist Security Info=False%3bUser ID=sqladmin%3bPassword=Password%401%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
